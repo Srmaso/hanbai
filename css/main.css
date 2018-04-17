@@ -1,0 +1,221 @@
+/* Fondo del body con gradiente */
+
+body {
+    background: #f4f3ef;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    /* El bootstraps que uso tiene sombra y no me gusta así que la elimino */
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+/* Posición de la barra lateral en fixed */
+
+.sidebar .sidebar-wrapper {
+    position: fixed;
+    background-color: white;
+
+
+}
+
+/* Margenes para mi estilo en diferentes clases */
+
+.btn.btn-block {
+    margin: 20px;
+}
+
+.row {
+
+    margin-bottom: 80px;
+}
+
+.form-group.last {
+    margin-bottom: 0px;
+}
+
+
+/* Personalizo mi h2 */
+
+h2,
+.h2 {
+    font-size: 1.0em;
+    margin: 10px 0 15px;
+}
+
+/* Footer fixed aunque en login no queda como quiero, pendiente de arreglar */
+
+.footer {
+    background-attachment: fixed;
+    line-height: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para tablas */
+
+table td {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Estilo para caja de login */
+
+.login-wrap {
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: inset -1px -1px 0px 0px #b9b8b8;
+
+}
+
+
+.logo-login {
+    background: url(images/hanbai-logo.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #444;
+    height: 100px;
+    margin: 0 auto 25px;
+    padding: 0;
+    width: 100px;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+}
+
+.logo-login-small {
+    background: url(images/hanbai-logo.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #444;
+    height: 50px;
+
+    padding: 0;
+    width: 50px;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+}
+
+.form-control {
+    background-color: #8c8983;
+
+}
+
+/* Awersome icon del corazon color rojo */
+
+.footer .fa-heart {
+    color: #EB5E28;
+}
+
+/* Nombre de la app en barra lateral */
+
+.textologo {
+    float: right;
+    color: #bf0000;
+    line-height: 0;
+}
+
+/* Ancho de las alertas */
+
+.sweet-alert {
+
+    width: 505px;
+
+}
+
+/* Fonde de marcador de items */
+
+.badge {
+  
+    background-color: #bf0000;
+   
+}
+
+#cart-container {
+    position:fixed;
+}
+
+/* Margin top para las cajas del contenido */
+
+.card {
+
+    margin-top: 20px;
+}
+
+.card .header {
+    padding: 20px 0px 20px;
+}
+
+
+/* Estilo de botones */
+
+.btn-success {
+
+    padding: 4px 11px;
+    margin-top: 10px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-xs {
+    font-size: 10px;
+    border-radius: 26px;
+    padding: 4px 8px;
+    float: right;
+}
+
+.btn-info {
+
+    margin-top: 20px;
+}
+
+
+
+/* Bordes y sombra para la imagen de producto */
+
+.productoimg {
+    box-shadow: 1px 1px 5px #555;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+/* Posición */
+
+.modal-backdrop {
+    position: inherit;
+
+}
+
+
+.affix {
+    position: inherit;
+}
+
+.precio {
+    position: absolute;
+    padding: 2%;
+}
+
+.preciotexto {
+    display: inline;
+    color: white;
+    font-size: 2.4em;
+    text-shadow: 2px 2px #151515;
+}
